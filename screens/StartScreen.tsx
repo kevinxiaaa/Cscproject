@@ -13,7 +13,7 @@ export default function StartScreen({ navigation }: Props) {
   return (
     <ImageBackground source={require('../assets/start-background.png')} style={styles.background}>
       <View style={styles.container}>
-        <Text style={styles.title}>Welcome to Campus Occupancy App</Text>
+        <Text style={styles.title}>Octical</Text>
         <Button title="Enter" onPress={() => navigation.navigate('Home')} />
       </View>
     </ImageBackground>
